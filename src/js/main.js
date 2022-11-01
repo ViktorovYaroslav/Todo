@@ -1,6 +1,6 @@
 import '../style/bootstrap.min.css'
 import '../style/app.css'
-import '../js/bootstrap.min.js'
+
 
 import App from '../App.svelte'
 

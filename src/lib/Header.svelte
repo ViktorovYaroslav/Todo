@@ -3,12 +3,11 @@
 
    const handleBudrgerMenuBtn = () => {
       burgerMenuCheked = !burgerMenuCheked;
-      document.body.classList.toggle('_lock')
+      document.body.classList.toggle('_lock');
    }
    const closeBurgerMenu = (e) => {
-      if (e.target.classList.contains('navigation__link')){
-         handleBudrgerMenuBtn()
-      }
+      burgerMenuCheked = !burgerMenuCheked;
+      document.body.classList.remove('_lock');
    }
 </script>
 
